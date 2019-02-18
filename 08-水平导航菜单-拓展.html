@@ -56,6 +56,20 @@
         #list .item:hover > .submenu{
             display: block;
         }
+        #triangle{
+            /*border: 50px solid #ff0000;*/
+
+            border-width: 50px;
+            border-style: solid;
+            border-top-color: transparent;
+            border-bottom-color: transparent;
+            border-left-color: #aaddcc;
+            border-right-color: transparent;
+            width: 0;
+        }
+        #triangle:hover {
+            cursor:pointer;
+        }
     </style>
 </head>
 <body>
@@ -74,5 +88,9 @@
     <li class="item"><a href="">Link Four</a></li>
 </ul>
 <h1>标题</h1>
+        <div id="triangle"></div>
+
+
+
 </body>
 </html>
